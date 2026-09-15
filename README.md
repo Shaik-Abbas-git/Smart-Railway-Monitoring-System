@@ -244,25 +244,33 @@ The overall system continuously monitors train schedules and responds to user or
 
 ---
 
-## 🖥️ Simulation & Output
+## 🧪 Simulation & Output
 
-The system was developed and tested using **Keil µVision** and simulated in **Proteus** to verify the interaction between the microcontroller and connected peripherals.
+### 🖥️ Proteus Simulation
 
-### 🔬 Simulation Setup
+The complete railway monitoring system was simulated in **Proteus** to verify the interaction between the LPC2148 controller, 16×2 LCD, 4×4 keypad, RTC, LEDs, buzzer, and external interrupt.
 
-The simulation includes:
+### 🔧 LPC2148 Hardware Testing
 
-- LPC2148-based ARM7 controller
-- 16×2 LCD
-- 4×4 keypad
-- RTC
-- Status LEDs
-- Buzzer
-- Admin push button
+The project was also **implemented and tested on an LPC2148 ARM7 development kit**. The hardware testing verified the actual operation of:
 
-> **Note:** The Proteus simulation uses an LPC2138 device model as a simulator substitute for the LPC2148 where the LPC2148 model is unavailable in the Proteus device library.
+- Real-time clock and train schedule monitoring
+- LCD train information display
+- Keypad-based admin operations
+- External interrupt for entering Admin Mode
+- LED status indications
+- Buzzer alert indication
+- Train delay and platform modification logic
 
----
+### 📺 Output
+
+The system successfully displays train information and real-time status on the LCD while providing visual and audio alerts based on the train's approaching and delayed conditions.
+
+> **✅ Tested on LPC2148 ARM7 Development Kit**
+>
+> **✅ Verified through Proteus Simulation**
+
+
 
 ## 🛠️ Development
 
