@@ -43,9 +43,9 @@ The system also includes an **Admin Mode**, which allows authorized users to mod
 
 ---
 
-## 🧩 System Block Diagram
+## 🧩 System Block Diagram 
 
-<img width="1536" height="570" alt="block-diagram" src="https://github.com/user-attachments/assets/595c8760-07f5-4e9e-8255-91f0b3ef4260" />
+<img width="1536" height="1024" alt="IMG-20260917-WA0003" src="https://github.com/user-attachments/assets/5d257362-127f-4fe6-9dbe-239a0d102b90" />
 
 ---
 
